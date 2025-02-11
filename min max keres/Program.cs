@@ -35,7 +35,24 @@ namespace min_max_keres
             Console.WriteLine($"\nA legkisebb eleme:{veletlenszam.Min()}") ;
             Console.WriteLine($"\nA legnagyobb eleme:{veletlenszam.Max()}") ;
             //3. megoldás
-
+            int min = veletlenszam [0];
+            for (int i = 0; i < veletlenszam.Length; i++)
+            {
+                if (veletlenszam[i]<min)
+                {
+                    min = veletlenszam[i];
+                }
+            }
+            int max = veletlenszam [0];
+            for (int i = 0; i < veletlenszam.Length; i++)
+            {
+                if (veletlenszam[i]>max)
+                {
+                    max = veletlenszam[i];
+                }
+            }
+            Console.WriteLine($"\nA legkisebb elem:{min}");
+            Console.WriteLine($"\nA legnagyobb elem:{max}");
             Console.WriteLine("\nPogram vége");
             Console.ReadLine();
         }
