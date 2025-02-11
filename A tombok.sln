@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat_jegyzet_1", "Feladat_jegyzet_1\Feladat_jegyzet_1.csproj", "{ABEA92F8-CD1C-453F-BEED-6E86CF6F6FD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "min max keres", "min max keres\min max keres.csproj", "{46F9042C-2FD6-4B96-AA69-1615CC3FD0FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ABEA92F8-CD1C-453F-BEED-6E86CF6F6FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABEA92F8-CD1C-453F-BEED-6E86CF6F6FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABEA92F8-CD1C-453F-BEED-6E86CF6F6FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F9042C-2FD6-4B96-AA69-1615CC3FD0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F9042C-2FD6-4B96-AA69-1615CC3FD0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F9042C-2FD6-4B96-AA69-1615CC3FD0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F9042C-2FD6-4B96-AA69-1615CC3FD0FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
